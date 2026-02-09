@@ -1,0 +1,102 @@
+/* [project]/app/globals.css [app-client] (css) */
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: var(--font-patrick), cursive, sans-serif;
+  cursor: url("/cursor.png") 0 0, auto;
+  background-image: radial-gradient(#d4d4d4 1px, #0000 1px);
+  background-size: 20px 20px;
+  color: #000 !important;
+  background-color: #f9f7f1 !important;
+}
+
+a, button, select, input, [role="button"], .btn-pop, .link-pop, .dots-pop {
+  cursor: url("/cursor.png") 0 0, pointer;
+}
+
+.font-comic {
+  font-family: var(--font-patrick), cursive, sans-serif;
+}
+
+.btn-pop {
+  transition: transform .12s, box-shadow .12s;
+}
+
+.btn-pop:hover {
+  transform: translateY(-2px)scale(1.03);
+  box-shadow: 5px 5px #000 !important;
+}
+
+.btn-pop:active {
+  transform: translateY(2px)scale(.97);
+  box-shadow: 1px 1px #000 !important;
+}
+
+.card-pop {
+  transition: transform .2s, box-shadow .2s;
+}
+
+.card-pop:hover {
+  transform: translateY(-6px)scale(1.02);
+}
+
+.card-pop:active {
+  transform: translateY(-2px)scale(1.005);
+}
+
+.link-pop {
+  transition: transform .15s, background-color .15s;
+}
+
+.link-pop:hover {
+  transform: scale(1.07);
+}
+
+.link-pop:active {
+  transform: scale(.95);
+}
+
+.card-pop:hover .tag-bounce {
+  animation: .4s wiggle;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0);
+  }
+
+  25% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(4deg);
+  }
+
+  75% {
+    transform: rotate(-2deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.dots-pop {
+  transition: transform .15s, background-color .15s;
+}
+
+.dots-pop:hover {
+  transform: scale(1.1);
+  background-color: #f3f4f6 !important;
+}
+
+.dots-pop:active {
+  transform: scale(.9);
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/
