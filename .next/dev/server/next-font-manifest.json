@@ -1,6 +1,6 @@
 {
   "app": {
-    "[project]/app/_not-found/page": [
+    "[project]/app/event/[id]/page": [
       "static/media/f8cabcee3b0c666c-s.p.b364ada9.woff2"
     ],
     "[project]/app/page": [
