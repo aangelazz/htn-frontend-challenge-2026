@@ -27,8 +27,6 @@ function AuthProvider({ children }) {
         }
     }["AuthProvider.useEffect"], []);
     const login = (username, password)=>{
-        // 🔒 SECURITY CHECK: Only allow this specific combination
-        // CHANGE "htn2026" to the password provided in your challenge instructions!
         if (username === "hacker" && password === "htn2026") {
             setIsAuthenticated(true);
             localStorage.setItem("isAuthenticated", "true");
@@ -49,7 +47,7 @@ function AuthProvider({ children }) {
         children: children
     }, void 0, false, {
         fileName: "[project]/context/AuthContext.tsx",
-        lineNumber: 39,
+        lineNumber: 37,
         columnNumber: 5
     }, this);
 }

@@ -146,4 +146,9 @@ a, button, select, input, [role="button"], .btn-pop, .link-pop, .dots-pop {
   transform: scale(.9);
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=%5Broot-of-the-server%5D__04fa8d75._.css.map*/

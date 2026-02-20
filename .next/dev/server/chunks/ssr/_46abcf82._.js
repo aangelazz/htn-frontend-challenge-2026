@@ -133,7 +133,7 @@ function LoginModal({ onClose }) {
                                     children: "Username"
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -152,13 +152,13 @@ function LoginModal({ onClose }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 68,
+                                    lineNumber: 67,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/LoginModal.tsx",
-                            lineNumber: 57,
+                            lineNumber: 56,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -173,7 +173,7 @@ function LoginModal({ onClose }) {
                                     children: "Password"
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 85,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -192,13 +192,13 @@ function LoginModal({ onClose }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/LoginModal.tsx",
-                            lineNumber: 86,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this),
                         error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -211,7 +211,7 @@ function LoginModal({ onClose }) {
                             children: error
                         }, void 0, false, {
                             fileName: "[project]/components/LoginModal.tsx",
-                            lineNumber: 115,
+                            lineNumber: 113,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -239,7 +239,7 @@ function LoginModal({ onClose }) {
                                     children: "Cancel"
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 129,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -260,13 +260,13 @@ function LoginModal({ onClose }) {
                                     children: "Login"
                                 }, void 0, false, {
                                     fileName: "[project]/components/LoginModal.tsx",
-                                    lineNumber: 147,
+                                    lineNumber: 144,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/LoginModal.tsx",
-                            lineNumber: 128,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this)
                     ]
@@ -304,36 +304,207 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$LoginModal$2e$
 ;
 ;
 ;
+const SOCIAL_LINKS = [
+    {
+        href: "https://hackthenorth.com/",
+        label: "Hack the North",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "12",
+                    cy: "12",
+                    r: "10"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 22,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                    x1: "2",
+                    y1: "12",
+                    x2: "22",
+                    y2: "12"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                    d: "M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 24,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Navbar.tsx",
+            lineNumber: 12,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        href: "https://www.youtube.com/@hackthenorthtv",
+        label: "YouTube",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "#FF0000",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                d: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+            }, void 0, false, {
+                fileName: "[project]/components/Navbar.tsx",
+                lineNumber: 33,
+                columnNumber: 9
+            }, ("TURBOPACK compile-time value", void 0))
+        }, void 0, false, {
+            fileName: "[project]/components/Navbar.tsx",
+            lineNumber: 32,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
+    },
+    {
+        href: "https://www.instagram.com/hackthenorth/",
+        label: "Instagram",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+            width: "20",
+            height: "20",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
+                    x: "2",
+                    y: "2",
+                    width: "20",
+                    height: "20",
+                    rx: "5",
+                    stroke: "url(#ig)",
+                    strokeWidth: "2"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 42,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "12",
+                    cy: "12",
+                    r: "5",
+                    stroke: "url(#ig)",
+                    strokeWidth: "2"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 51,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
+                    cx: "17.5",
+                    cy: "6.5",
+                    r: "1.5",
+                    fill: "url(#ig)"
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 52,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0)),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
+                        id: "ig",
+                        x1: "2",
+                        y1: "22",
+                        x2: "22",
+                        y2: "2",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                stopColor: "#F58529"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 55,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "0.5",
+                                stopColor: "#DD2A7B"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0)),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                offset: "1",
+                                stopColor: "#8134AF"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 57,
+                                columnNumber: 13
+                            }, ("TURBOPACK compile-time value", void 0))
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Navbar.tsx",
+                        lineNumber: 54,
+                        columnNumber: 11
+                    }, ("TURBOPACK compile-time value", void 0))
+                }, void 0, false, {
+                    fileName: "[project]/components/Navbar.tsx",
+                    lineNumber: 53,
+                    columnNumber: 9
+                }, ("TURBOPACK compile-time value", void 0))
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Navbar.tsx",
+            lineNumber: 41,
+            columnNumber: 7
+        }, ("TURBOPACK compile-time value", void 0))
+    }
+];
+const primaryBtnStyle = {
+    backgroundColor: "#E11D48",
+    color: "white",
+    padding: "10px 20px",
+    borderRadius: "12px",
+    border: "3px solid black",
+    boxShadow: "4px 4px 0px 0px black",
+    fontWeight: "bold",
+    cursor: "pointer",
+    fontFamily: "inherit",
+    fontSize: "16px"
+};
+const menuLinkStyle = {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
+    padding: "10px 16px",
+    fontSize: "15px",
+    fontWeight: "bold",
+    color: "black",
+    textDecoration: "none",
+    fontFamily: "inherit"
+};
 function Navbar() {
     const { isAuthenticated, logout } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AuthContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useAuth"])();
     const [showModal, setShowModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [showMenu, setShowMenu] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const menuRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        function handleClickOutside(e) {
+        if (!showMenu) return;
+        const handleClickOutside = (e)=>{
             if (menuRef.current && !menuRef.current.contains(e.target)) {
                 setShowMenu(false);
             }
-        }
-        if (showMenu) {
-            document.addEventListener("mousedown", handleClickOutside);
-        }
+        };
+        document.addEventListener("mousedown", handleClickOutside);
         return ()=>document.removeEventListener("mousedown", handleClickOutside);
     }, [
         showMenu
     ]);
-    const buttonStyle = {
-        backgroundColor: "#E11D48",
-        color: "white",
-        padding: "10px 20px",
-        borderRadius: "12px",
-        border: "3px solid black",
-        boxShadow: "4px 4px 0px 0px black",
-        fontWeight: "bold",
-        cursor: "pointer",
-        fontFamily: "inherit",
-        fontSize: "16px"
-    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
         style: {
             display: "flex",
@@ -362,7 +533,7 @@ function Navbar() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 41,
+                        lineNumber: 122,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -375,7 +546,17 @@ function Navbar() {
                             margin: 0
                         },
                         children: [
-                            "Hackathon ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                style: {
+                                    color: "#E11D48"
+                                },
+                                children: "Hackathon"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.tsx",
+                                lineNumber: 137,
+                                columnNumber: 11
+                            }, this),
+                            " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
                                     fontWeight: 800
@@ -383,8 +564,8 @@ function Navbar() {
                                 children: "Global"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 47,
-                                columnNumber: 21
+                                lineNumber: 138,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 style: {
@@ -394,19 +575,19 @@ function Navbar() {
                                 children: "™"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 48,
+                                lineNumber: 139,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 46,
+                        lineNumber: 127,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 40,
+                lineNumber: 121,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,27 +603,27 @@ function Navbar() {
                         className: "btn-pop",
                         onClick: logout,
                         style: {
-                            ...buttonStyle,
+                            ...primaryBtnStyle,
                             flex: 1,
                             padding: "10px 0"
                         },
                         children: "Logout"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 55,
+                        lineNumber: 153,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "btn-pop",
                         onClick: ()=>setShowModal(true),
                         style: {
-                            ...buttonStyle,
+                            ...primaryBtnStyle,
                             flex: 1,
                             padding: "10px 0"
                         },
                         children: "Hacker Login"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 59,
+                        lineNumber: 161,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -453,7 +634,7 @@ function Navbar() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 className: "dots-pop",
-                                onClick: ()=>setShowMenu(!showMenu),
+                                onClick: ()=>setShowMenu((prev)=>!prev),
                                 style: {
                                     background: "white",
                                     border: "2px solid black",
@@ -473,7 +654,7 @@ function Navbar() {
                                 children: "⋮"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 66,
+                                lineNumber: 171,
                                 columnNumber: 11
                             }, this),
                             showMenu && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -489,258 +670,50 @@ function Navbar() {
                                     zIndex: 50,
                                     minWidth: "220px"
                                 },
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://hackthenorth.com/",
+                                children: SOCIAL_LINKS.map(({ href, label, icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: href,
                                         target: "_blank",
                                         rel: "noopener noreferrer",
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "10px",
-                                            padding: "10px 16px",
-                                            fontSize: "15px",
-                                            fontWeight: "bold",
-                                            color: "black",
-                                            textDecoration: "none",
-                                            fontFamily: "inherit"
-                                        },
+                                        style: menuLinkStyle,
                                         onMouseEnter: (e)=>e.currentTarget.style.backgroundColor = "#F3F4F6",
                                         onMouseLeave: (e)=>e.currentTarget.style.backgroundColor = "transparent",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "20",
-                                                height: "20",
-                                                viewBox: "0 0 24 24",
-                                                fill: "none",
-                                                stroke: "currentColor",
-                                                strokeWidth: "2",
-                                                strokeLinecap: "round",
-                                                strokeLinejoin: "round",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                                        cx: "12",
-                                                        cy: "12",
-                                                        r: "10"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 122,
-                                                        columnNumber: 160
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                                        x1: "2",
-                                                        y1: "12",
-                                                        x2: "22",
-                                                        y2: "12"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 122,
-                                                        columnNumber: 192
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 122,
-                                                        columnNumber: 230
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 122,
-                                                columnNumber: 17
-                                            }, this),
-                                            "Hack the North"
+                                            icon,
+                                            label
                                         ]
-                                    }, void 0, true, {
+                                    }, href, true, {
                                         fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 104,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://www.youtube.com/@hackthenorthtv",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "10px",
-                                            padding: "10px 16px",
-                                            fontSize: "15px",
-                                            fontWeight: "bold",
-                                            color: "black",
-                                            textDecoration: "none",
-                                            fontFamily: "inherit"
-                                        },
-                                        onMouseEnter: (e)=>e.currentTarget.style.backgroundColor = "#F3F4F6",
-                                        onMouseLeave: (e)=>e.currentTarget.style.backgroundColor = "transparent",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "20",
-                                                height: "20",
-                                                viewBox: "0 0 24 24",
-                                                fill: "#FF0000",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                    d: "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Navbar.tsx",
-                                                    lineNumber: 143,
-                                                    columnNumber: 80
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 143,
-                                                columnNumber: 17
-                                            }, this),
-                                            "YouTube"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 125,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://www.instagram.com/hackthenorth/",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "10px",
-                                            padding: "10px 16px",
-                                            fontSize: "15px",
-                                            fontWeight: "bold",
-                                            color: "black",
-                                            textDecoration: "none",
-                                            fontFamily: "inherit"
-                                        },
-                                        onMouseEnter: (e)=>e.currentTarget.style.backgroundColor = "#F3F4F6",
-                                        onMouseLeave: (e)=>e.currentTarget.style.backgroundColor = "transparent",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "20",
-                                                height: "20",
-                                                viewBox: "0 0 24 24",
-                                                fill: "none",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("rect", {
-                                                        x: "2",
-                                                        y: "2",
-                                                        width: "20",
-                                                        height: "20",
-                                                        rx: "5",
-                                                        stroke: "url(#ig)",
-                                                        strokeWidth: "2"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 164,
-                                                        columnNumber: 77
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                                        cx: "12",
-                                                        cy: "12",
-                                                        r: "5",
-                                                        stroke: "url(#ig)",
-                                                        strokeWidth: "2"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 164,
-                                                        columnNumber: 160
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                                        cx: "17.5",
-                                                        cy: "6.5",
-                                                        r: "1.5",
-                                                        fill: "url(#ig)"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 164,
-                                                        columnNumber: 225
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
-                                                            id: "ig",
-                                                            x1: "2",
-                                                            y1: "22",
-                                                            x2: "22",
-                                                            y2: "2",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                                    stopColor: "#F58529"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Navbar.tsx",
-                                                                    lineNumber: 164,
-                                                                    columnNumber: 337
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                                    offset: "0.5",
-                                                                    stopColor: "#DD2A7B"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Navbar.tsx",
-                                                                    lineNumber: 164,
-                                                                    columnNumber: 364
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                                    offset: "1",
-                                                                    stopColor: "#8134AF"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Navbar.tsx",
-                                                                    lineNumber: 164,
-                                                                    columnNumber: 404
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/Navbar.tsx",
-                                                            lineNumber: 164,
-                                                            columnNumber: 283
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Navbar.tsx",
-                                                        lineNumber: 164,
-                                                        columnNumber: 277
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/components/Navbar.tsx",
-                                                lineNumber: 164,
-                                                columnNumber: 17
-                                            }, this),
-                                            "Instagram"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Navbar.tsx",
-                                        lineNumber: 146,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                        lineNumber: 210,
+                                        columnNumber: 17
+                                    }, this))
+                            }, void 0, false, {
                                 fileName: "[project]/components/Navbar.tsx",
-                                lineNumber: 90,
+                                lineNumber: 195,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 65,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 53,
+                lineNumber: 143,
                 columnNumber: 7
             }, this),
             showModal && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$LoginModal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["LoginModal"], {
                 onClose: ()=>setShowModal(false)
             }, void 0, false, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 172,
+                lineNumber: 232,
                 columnNumber: 21
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Navbar.tsx",
-        lineNumber: 38,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 }
@@ -755,7 +728,7 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 "use client";
 ;
-function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
+function FilterBar({ search, setSearch, typeFilter, setTypeFilter, sortOrder, setSortOrder }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
             display: "flex",
@@ -780,7 +753,7 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                 onChange: (e)=>setSearch(e.target.value)
             }, void 0, false, {
                 fileName: "[project]/components/FilterBar.tsx",
-                lineNumber: 20,
+                lineNumber: 30,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -789,7 +762,28 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/FilterBar.tsx",
-                lineNumber: 37,
+                lineNumber: 46,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                className: "btn-pop",
+                onClick: ()=>setSortOrder(sortOrder === "asc" ? "desc" : "asc"),
+                style: {
+                    padding: "6px 12px",
+                    border: "2px solid black",
+                    borderRadius: "6px",
+                    fontSize: "16px",
+                    fontFamily: "inherit",
+                    backgroundColor: "white",
+                    cursor: "pointer",
+                    fontWeight: "bold",
+                    boxShadow: "3px 3px 0px 0px black",
+                    whiteSpace: "nowrap"
+                },
+                children: sortOrder === "asc" ? "Earliest First ↑" : "Latest First ↓"
+            }, void 0, false, {
+                fileName: "[project]/components/FilterBar.tsx",
+                lineNumber: 48,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -812,7 +806,7 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                         children: "Filter Event Type"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterBar.tsx",
-                        lineNumber: 55,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -820,7 +814,7 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                         children: "Workshop"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterBar.tsx",
-                        lineNumber: 56,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -828,7 +822,7 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                         children: "Activity"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterBar.tsx",
-                        lineNumber: 57,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -836,19 +830,19 @@ function FilterBar({ search, setSearch, typeFilter, setTypeFilter }) {
                         children: "Tech Talk"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterBar.tsx",
-                        lineNumber: 58,
+                        lineNumber: 84,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/FilterBar.tsx",
-                lineNumber: 40,
+                lineNumber: 66,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/FilterBar.tsx",
-        lineNumber: 18,
+        lineNumber: 22,
         columnNumber: 5
     }, this);
 }
@@ -861,265 +855,312 @@ __turbopack_context__.s([
     ()=>EventCard
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AuthContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/context/AuthContext.tsx [app-ssr] (ecmascript)");
 ;
 ;
-const borderColors = {
-    workshop: "#C2410C",
-    activity: "#B45309",
-    tech_talk: "#1D4ED8"
-};
-const bgColors = {
-    workshop: "#FFF8EE",
-    activity: "#FEFCE8",
-    tech_talk: "#EFF6FF"
-};
-const tagStyles = {
+;
+const THEME = {
     workshop: {
-        bg: "#FDE68A",
-        border: "#92400E"
+        border: "#C2410C",
+        bg: "#FFF8EE",
+        tag: {
+            bg: "#FDE68A",
+            border: "#92400E"
+        }
     },
     activity: {
-        bg: "#BBF7D0",
-        border: "#166534"
+        border: "#B45309",
+        bg: "#FEFCE8",
+        tag: {
+            bg: "#BBF7D0",
+            border: "#166534"
+        }
     },
     tech_talk: {
-        bg: "#BFDBFE",
-        border: "#1E40AF"
+        border: "#1D4ED8",
+        bg: "#EFF6FF",
+        tag: {
+            bg: "#BFDBFE",
+            border: "#1E40AF"
+        }
+    }
+};
+const DEFAULT_THEME = {
+    border: "#000",
+    bg: "#FFF8EE",
+    tag: {
+        bg: "#E5E7EB",
+        border: "#6B7280"
     }
 };
 function EventCard({ event }) {
     const { isAuthenticated } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$context$2f$AuthContext$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useAuth"])();
     const isPrivate = event.permission === "private";
     if (isPrivate && !isAuthenticated) return null;
-    const color = borderColors[event.event_type] || "#000";
-    const bg = bgColors[event.event_type] || "#FFF8EE";
-    const tag = tagStyles[event.event_type] || {
-        bg: "#E5E7EB",
-        border: "#6B7280"
+    const theme = THEME[event.event_type] ?? DEFAULT_THEME;
+    const { border: color, bg, tag } = theme;
+    const startDate = new Date(event.start_time);
+    const endDate = new Date(event.end_time);
+    const timeFormat = {
+        hour: "2-digit",
+        minute: "2-digit"
     };
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "card-pop",
-        style: {
-            backgroundColor: bg,
-            border: `3px solid ${color}`,
-            boxShadow: `5px 5px 0px 0px ${color}`,
-            borderRadius: "12px",
-            padding: "20px 24px",
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "space-between",
-            minHeight: "260px",
-            overflow: "hidden",
-            cursor: "default"
-        },
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                style: {
-                    fontSize: "20px",
-                    fontWeight: 800,
-                    lineHeight: 1.2,
-                    marginBottom: "8px"
-                },
-                children: event.name
-            }, void 0, false, {
-                fileName: "[project]/components/EventCard.tsx",
-                lineNumber: 50,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "8px",
-                    marginBottom: "12px",
-                    flexWrap: "wrap"
-                },
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "inline-block",
-                            border: `2px solid ${color}`,
-                            borderRadius: "9999px",
-                            padding: "2px 12px",
-                            fontSize: "14px",
-                            fontWeight: "bold"
-                        },
-                        children: [
-                            new Date(event.start_time).toLocaleTimeString([], {
-                                hour: "2-digit",
-                                minute: "2-digit"
-                            }),
-                            " - ",
-                            new Date(event.end_time).toLocaleTimeString([], {
-                                hour: "2-digit",
-                                minute: "2-digit"
-                            })
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/EventCard.tsx",
-                        lineNumber: 56,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            fontSize: "13px",
-                            fontWeight: "bold",
-                            color: "#555"
-                        },
-                        children: new Date(event.start_time).toLocaleDateString([], {
-                            weekday: "short",
-                            month: "short",
-                            day: "numeric"
-                        })
-                    }, void 0, false, {
-                        fileName: "[project]/components/EventCard.tsx",
-                        lineNumber: 76,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/EventCard.tsx",
-                lineNumber: 55,
-                columnNumber: 7
-            }, this),
-            event.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                style: {
-                    fontSize: "14px",
-                    lineHeight: 1.4,
-                    marginBottom: "16px",
-                    overflow: "hidden",
-                    display: "-webkit-box",
-                    WebkitLineClamp: 4,
-                    WebkitBoxOrient: "vertical"
-                },
-                children: event.description
-            }, void 0, false, {
-                fileName: "[project]/components/EventCard.tsx",
-                lineNumber: 93,
-                columnNumber: 9
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    display: "flex",
-                    flexWrap: "wrap",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    gap: "8px",
-                    marginTop: "auto"
-                },
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "flex",
-                            gap: "6px",
-                            flexWrap: "wrap"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "tag-bounce",
-                                style: {
-                                    backgroundColor: tag.bg,
-                                    border: `2px solid ${tag.border}`,
-                                    borderRadius: "9999px",
-                                    padding: "2px 10px",
-                                    fontSize: "12px",
-                                    fontWeight: "bold",
-                                    textTransform: "lowercase"
-                                },
-                                children: event.event_type.replace("_", " ")
-                            }, void 0, false, {
-                                fileName: "[project]/components/EventCard.tsx",
-                                lineNumber: 110,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "tag-bounce",
-                                style: {
-                                    backgroundColor: isPrivate ? "#F3E8FF" : "#ECFDF5",
-                                    border: `2px solid ${isPrivate ? "#7C3AED" : "#059669"}`,
-                                    borderRadius: "9999px",
-                                    padding: "2px 10px",
-                                    fontSize: "12px",
-                                    fontWeight: "bold",
-                                    textTransform: "lowercase"
-                                },
-                                children: isPrivate ? "private" : "public"
-                            }, void 0, false, {
-                                fileName: "[project]/components/EventCard.tsx",
-                                lineNumber: 124,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/EventCard.tsx",
-                        lineNumber: 109,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "flex",
-                            gap: "8px",
-                            alignItems: "center"
-                        },
-                        children: [
-                            event.public_url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: event.public_url,
-                                target: "_blank",
-                                className: "link-pop",
-                                style: {
-                                    fontSize: "14px",
-                                    fontWeight: "bold",
-                                    backgroundColor: "#A3D977",
-                                    border: "2px solid black",
-                                    borderRadius: "9999px",
-                                    padding: "2px 12px",
-                                    textDecoration: "none",
-                                    color: "black",
-                                    whiteSpace: "nowrap"
-                                },
-                                children: "View Public Link →"
-                            }, void 0, false, {
-                                fileName: "[project]/components/EventCard.tsx",
-                                lineNumber: 143,
-                                columnNumber: 13
-                            }, this),
-                            isAuthenticated && event.private_url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: event.private_url,
-                                target: "_blank",
-                                className: "link-pop",
-                                style: {
-                                    fontSize: "14px",
-                                    fontWeight: "bold",
-                                    backgroundColor: "black",
-                                    color: "white",
-                                    borderRadius: "9999px",
-                                    padding: "2px 12px",
-                                    textDecoration: "none",
-                                    whiteSpace: "nowrap"
-                                },
-                                children: "Hacker Link →"
-                            }, void 0, false, {
-                                fileName: "[project]/components/EventCard.tsx",
-                                lineNumber: 164,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/EventCard.tsx",
-                        lineNumber: 141,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/EventCard.tsx",
-                lineNumber: 107,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+    const dateFormat = {
+        weekday: "short",
+        month: "short",
+        day: "numeric"
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+        href: `/event/${event.id}`,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "card-pop",
+            style: {
+                backgroundColor: bg,
+                border: `3px solid ${color}`,
+                boxShadow: `5px 5px 0px 0px ${color}`,
+                borderRadius: "12px",
+                padding: "20px 24px",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "space-between",
+                minHeight: "260px",
+                overflow: "hidden",
+                cursor: "default"
+            },
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                    style: {
+                        fontSize: "20px",
+                        fontWeight: 800,
+                        lineHeight: 1.2,
+                        marginBottom: "8px"
+                    },
+                    children: event.name
+                }, void 0, false, {
+                    fileName: "[project]/components/EventCard.tsx",
+                    lineNumber: 71,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "8px",
+                        marginBottom: "12px",
+                        flexWrap: "wrap"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: "inline-block",
+                                border: `2px solid ${color}`,
+                                borderRadius: "9999px",
+                                padding: "2px 12px",
+                                fontSize: "14px",
+                                fontWeight: "bold"
+                            },
+                            children: [
+                                startDate.toLocaleTimeString([], timeFormat),
+                                " - ",
+                                endDate.toLocaleTimeString([], timeFormat)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EventCard.tsx",
+                            lineNumber: 91,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                fontSize: "13px",
+                                fontWeight: "bold",
+                                color: "#555"
+                            },
+                            children: startDate.toLocaleDateString([], dateFormat)
+                        }, void 0, false, {
+                            fileName: "[project]/components/EventCard.tsx",
+                            lineNumber: 105,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EventCard.tsx",
+                    lineNumber: 82,
+                    columnNumber: 9
+                }, this),
+                event.description && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                    style: {
+                        fontSize: "14px",
+                        lineHeight: 1.4,
+                        marginBottom: "16px",
+                        overflow: "hidden",
+                        display: "-webkit-box",
+                        WebkitLineClamp: 4,
+                        WebkitBoxOrient: "vertical"
+                    },
+                    children: event.description
+                }, void 0, false, {
+                    fileName: "[project]/components/EventCard.tsx",
+                    lineNumber: 111,
+                    columnNumber: 11
+                }, this),
+                event.speakers.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: "flex",
+                        flexWrap: "wrap",
+                        gap: "6px",
+                        marginBottom: "12px"
+                    },
+                    children: event.speakers.map((speaker, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            style: {
+                            },
+                            children: [
+                                "🎤 ",
+                                speaker.name
+                            ]
+                        }, i, true, {
+                            fileName: "[project]/components/EventCard.tsx",
+                            lineNumber: 136,
+                            columnNumber: 15
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/components/EventCard.tsx",
+                    lineNumber: 127,
+                    columnNumber: 11
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        display: "flex",
+                        flexWrap: "wrap",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        gap: "8px",
+                        marginTop: "auto"
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: "flex",
+                                gap: "6px",
+                                flexWrap: "wrap"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "tag-bounce",
+                                    style: {
+                                        backgroundColor: tag.bg,
+                                        border: `2px solid ${tag.border}`,
+                                        borderRadius: "9999px",
+                                        padding: "2px 10px",
+                                        fontSize: "12px",
+                                        fontWeight: "bold",
+                                        textTransform: "lowercase"
+                                    },
+                                    children: event.event_type.replace("_", " ")
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EventCard.tsx",
+                                    lineNumber: 161,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "tag-bounce",
+                                    style: {
+                                        backgroundColor: isPrivate ? "#F3E8FF" : "#ECFDF5",
+                                        border: `2px solid ${isPrivate ? "#7C3AED" : "#059669"}`,
+                                        borderRadius: "9999px",
+                                        padding: "2px 10px",
+                                        fontSize: "12px",
+                                        fontWeight: "bold",
+                                        textTransform: "lowercase"
+                                    },
+                                    children: isPrivate ? "private" : "public"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EventCard.tsx",
+                                    lineNumber: 175,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EventCard.tsx",
+                            lineNumber: 160,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            style: {
+                                display: "flex",
+                                gap: "8px",
+                                alignItems: "center"
+                            },
+                            children: [
+                                event.public_url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: (e)=>{
+                                        e.stopPropagation();
+                                        window.open(event.public_url, "_blank");
+                                    },
+                                    className: "link-pop",
+                                    style: {
+                                        fontSize: "14px",
+                                        fontWeight: "bold",
+                                        backgroundColor: "#A3D977",
+                                        border: "2px solid black",
+                                        borderRadius: "9999px",
+                                        padding: "2px 12px",
+                                        cursor: "pointer",
+                                        fontFamily: "inherit",
+                                        color: "black",
+                                        whiteSpace: "nowrap"
+                                    },
+                                    children: "View Public Link →"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EventCard.tsx",
+                                    lineNumber: 193,
+                                    columnNumber: 15
+                                }, this),
+                                isAuthenticated && event.private_url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: (e)=>{
+                                        e.stopPropagation();
+                                        window.open(event.private_url, "_blank");
+                                    },
+                                    className: "link-pop",
+                                    style: {
+                                        fontSize: "14px",
+                                        fontWeight: "bold",
+                                        backgroundColor: "black",
+                                        color: "white",
+                                        border: "3px solid black",
+                                        borderRadius: "9999px",
+                                        padding: "2px 12px",
+                                        cursor: "pointer",
+                                        fontFamily: "inherit",
+                                        whiteSpace: "nowrap"
+                                    },
+                                    children: "Hacker Link →"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/EventCard.tsx",
+                                    lineNumber: 217,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/EventCard.tsx",
+                            lineNumber: 191,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/EventCard.tsx",
+                    lineNumber: 150,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/EventCard.tsx",
+            lineNumber: 55,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/components/EventCard.tsx",
-        lineNumber: 33,
+        lineNumber: 54,
         columnNumber: 5
     }, this);
 }
@@ -1187,8 +1228,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useEventSort$2e$ts_
 function Home() {
     const [events, setEvents] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Use our custom hook for search/sort logic
-    const { search, setSearch, typeFilter, setTypeFilter, filteredEvents } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useEventSort$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEventSort"])(events);
+    const { search, setSearch, typeFilter, setTypeFilter, filteredEvents, sortOrder, setSortOrder } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useEventSort$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEventSort"])(events);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$api$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getEvents"])().then((data)=>{
             setEvents(data);
@@ -1204,7 +1244,7 @@ function Home() {
                     children: "🐶"
                 }, void 0, false, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 30,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1212,13 +1252,13 @@ function Home() {
                     children: "DRAWING COMICS..."
                 }, void 0, false, {
                     fileName: "[project]/app/page.tsx",
-                    lineNumber: 31,
+                    lineNumber: 30,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/page.tsx",
-            lineNumber: 29,
+            lineNumber: 28,
             columnNumber: 7
         }, this);
     }
@@ -1227,7 +1267,7 @@ function Home() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 41,
+                lineNumber: 39,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1241,10 +1281,12 @@ function Home() {
                         search: search,
                         setSearch: setSearch,
                         typeFilter: typeFilter,
-                        setTypeFilter: setTypeFilter
+                        setTypeFilter: setTypeFilter,
+                        sortOrder: sortOrder,
+                        setSortOrder: setSortOrder
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 45,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this),
                     filteredEvents.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1257,12 +1299,12 @@ function Home() {
                                 event: event
                             }, event.id, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 62,
+                                lineNumber: 60,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 54,
+                        lineNumber: 52,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-center py-20 border-4 border-black border-dashed rounded-3xl bg-white",
@@ -1272,7 +1314,7 @@ function Home() {
                                 children: "Good Grief!"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 67,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1280,25 +1322,25 @@ function Home() {
                                 children: "No events found matching that."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
-                                lineNumber: 68,
+                                lineNumber: 66,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 66,
+                        lineNumber: 64,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 43,
+                lineNumber: 41,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 39,
+        lineNumber: 38,
         columnNumber: 5
     }, this);
 }

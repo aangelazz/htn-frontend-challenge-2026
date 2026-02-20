@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { TEvent, TEventType } from "@/lib/types";
 import { useAuth } from "@/context/AuthContext";
 
@@ -50,161 +51,194 @@ export function EventCard({ event }: { event: TEvent }) {
   };
 
   return (
-    <div
-      className="card-pop"
-      style={{
-        backgroundColor: bg,
-        border: `3px solid ${color}`,
-        boxShadow: `5px 5px 0px 0px ${color}`,
-        borderRadius: "12px",
-        padding: "20px 24px",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "space-between",
-        minHeight: "260px",
-        overflow: "hidden",
-        cursor: "default",
-      }}
-    >
-      <h3
-        style={{
-          fontSize: "20px",
-          fontWeight: 800,
-          lineHeight: 1.2,
-          marginBottom: "8px",
-        }}
-      >
-        {event.name}
-      </h3>
-
+    <Link href={`/event/${event.id}`}>
       <div
+        className="card-pop"
         style={{
+          backgroundColor: bg,
+          border: `3px solid ${color}`,
+          boxShadow: `5px 5px 0px 0px ${color}`,
+          borderRadius: "12px",
+          padding: "20px 24px",
           display: "flex",
-          alignItems: "center",
-          gap: "8px",
-          marginBottom: "12px",
-          flexWrap: "wrap",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          minHeight: "260px",
+          overflow: "hidden",
+          cursor: "default",
         }}
       >
+        <h3
+          style={{
+            fontSize: "20px",
+            fontWeight: 800,
+            lineHeight: 1.2,
+            marginBottom: "8px",
+          }}
+        >
+          {event.name}
+        </h3>
+
         <div
           style={{
-            display: "inline-block",
-            border: `2px solid ${color}`,
-            borderRadius: "9999px",
-            padding: "2px 12px",
-            fontSize: "14px",
-            fontWeight: "bold",
+            display: "flex",
+            alignItems: "center",
+            gap: "8px",
+            marginBottom: "12px",
+            flexWrap: "wrap",
           }}
         >
-          {startDate.toLocaleTimeString([], timeFormat)}
-          {" - "}
-          {endDate.toLocaleTimeString([], timeFormat)}
+          <div
+            style={{
+              display: "inline-block",
+              border: `2px solid ${color}`,
+              borderRadius: "9999px",
+              padding: "2px 12px",
+              fontSize: "14px",
+              fontWeight: "bold",
+            }}
+          >
+            {startDate.toLocaleTimeString([], timeFormat)}
+            {" - "}
+            {endDate.toLocaleTimeString([], timeFormat)}
+          </div>
+          <div style={{ fontSize: "13px", fontWeight: "bold", color: "#555" }}>
+            {startDate.toLocaleDateString([], dateFormat)}
+          </div>
         </div>
-        <div style={{ fontSize: "13px", fontWeight: "bold", color: "#555" }}>
-          {startDate.toLocaleDateString([], dateFormat)}
-        </div>
-      </div>
 
-      {event.description && (
-        <p
+        {event.description && (
+          <p
+            style={{
+              fontSize: "14px",
+              lineHeight: 1.4,
+              marginBottom: "16px",
+              overflow: "hidden",
+              display: "-webkit-box",
+              WebkitLineClamp: 4,
+              WebkitBoxOrient: "vertical",
+            }}
+          >
+            {event.description}
+          </p>
+        )}
+
+        {event.speakers.length > 0 && (
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "6px",
+              marginBottom: "12px",
+            }}
+          >
+            {event.speakers.map((speaker, i) => (
+              <span
+                key={i}
+                style={
+                  {
+                    /* styles */
+                  }
+                }
+              >
+                🎤 {speaker.name}
+              </span>
+            ))}
+          </div>
+        )}
+
+        <div
           style={{
-            fontSize: "14px",
-            lineHeight: 1.4,
-            marginBottom: "16px",
-            overflow: "hidden",
-            display: "-webkit-box",
-            WebkitLineClamp: 4,
-            WebkitBoxOrient: "vertical",
+            display: "flex",
+            flexWrap: "wrap",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "8px",
+            marginTop: "auto",
           }}
         >
-          {event.description}
-        </p>
-      )}
-
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "8px",
-          marginTop: "auto",
-        }}
-      >
-        <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
-          <span
-            className="tag-bounce"
-            style={{
-              backgroundColor: tag.bg,
-              border: `2px solid ${tag.border}`,
-              borderRadius: "9999px",
-              padding: "2px 10px",
-              fontSize: "12px",
-              fontWeight: "bold",
-              textTransform: "lowercase",
-            }}
-          >
-            {event.event_type.replace("_", " ")}
-          </span>
-          <span
-            className="tag-bounce"
-            style={{
-              backgroundColor: isPrivate ? "#F3E8FF" : "#ECFDF5",
-              border: `2px solid ${isPrivate ? "#7C3AED" : "#059669"}`,
-              borderRadius: "9999px",
-              padding: "2px 10px",
-              fontSize: "12px",
-              fontWeight: "bold",
-              textTransform: "lowercase",
-            }}
-          >
-            {isPrivate ? "private" : "public"}
-          </span>
-        </div>
-
-        <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
-          {event.public_url && (
-            <a
-              href={event.public_url}
-              target="_blank"
-              className="link-pop"
+          <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+            <span
+              className="tag-bounce"
               style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                backgroundColor: "#A3D977",
-                border: "2px solid black",
+                backgroundColor: tag.bg,
+                border: `2px solid ${tag.border}`,
                 borderRadius: "9999px",
-                padding: "2px 12px",
-                textDecoration: "none",
-                color: "black",
-                whiteSpace: "nowrap",
+                padding: "2px 10px",
+                fontSize: "12px",
+                fontWeight: "bold",
+                textTransform: "lowercase",
               }}
             >
-              View Public Link →
-            </a>
-          )}
-
-          {isAuthenticated && event.private_url && (
-            <a
-              href={event.private_url}
-              target="_blank"
-              className="link-pop"
+              {event.event_type.replace("_", " ")}
+            </span>
+            <span
+              className="tag-bounce"
               style={{
-                fontSize: "14px",
-                fontWeight: "bold",
-                backgroundColor: "black",
-                color: "white",
+                backgroundColor: isPrivate ? "#F3E8FF" : "#ECFDF5",
+                border: `2px solid ${isPrivate ? "#7C3AED" : "#059669"}`,
                 borderRadius: "9999px",
-                padding: "2px 12px",
-                textDecoration: "none",
-                whiteSpace: "nowrap",
+                padding: "2px 10px",
+                fontSize: "12px",
+                fontWeight: "bold",
+                textTransform: "lowercase",
               }}
             >
-              Hacker Link →
-            </a>
-          )}
+              {isPrivate ? "private" : "public"}
+            </span>
+          </div>
+
+          <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+            {event.public_url && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(event.public_url, "_blank");
+                }}
+                className="link-pop"
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                  backgroundColor: "#A3D977",
+                  border: "2px solid black",
+                  borderRadius: "9999px",
+                  padding: "2px 12px",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  color: "black",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                View Public Link →
+              </button>
+            )}
+
+            {isAuthenticated && event.private_url && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(event.private_url, "_blank");
+                }}
+                className="link-pop"
+                style={{
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                  backgroundColor: "black",
+                  color: "white",
+                  border: "3px solid black",
+                  borderRadius: "9999px",
+                  padding: "2px 12px",
+                  cursor: "pointer",
+                  fontFamily: "inherit",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                Hacker Link →
+              </button>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }

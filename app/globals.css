@@ -72,3 +72,8 @@ a, button, select, input, [role="button"], .btn-pop, .link-pop, .dots-pop {
 .dots-pop:active {
   transform: scale(0.9);
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

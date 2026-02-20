@@ -6,6 +6,8 @@ interface FilterBarProps {
   setSearch: (value: string) => void;
   typeFilter: TEventType | "all";
   setTypeFilter: (value: TEventType | "all") => void;
+  sortOrder: "asc" | "desc";
+  setSortOrder: (value: "asc" | "desc") => void;
 }
 
 export function FilterBar({
@@ -13,6 +15,8 @@ export function FilterBar({
   setSearch,
   typeFilter,
   setTypeFilter,
+  sortOrder,
+  setSortOrder,
 }: FilterBarProps) {
   return (
     <div
@@ -40,6 +44,24 @@ export function FilterBar({
       />
 
       <div style={{ flex: 1 }} />
+
+      <button
+        className="btn-pop"
+        onClick={() => setSortOrder(sortOrder === "asc" ? "desc" : "asc")}
+        style={{
+          padding: "6px 12px",
+          border: "2px solid black",
+          borderRadius: "6px",
+          fontSize: "16px",
+          fontFamily: "inherit",
+          backgroundColor: "white",
+          cursor: "pointer",
+          fontWeight: "bold",
+          boxShadow: "3px 3px 0px 0px black",
+          whiteSpace: "nowrap",
+        }}>
+          {sortOrder === "asc" ? "Earliest First ↑" : "Latest First ↓"}
+      </button>
 
       <select
         style={{

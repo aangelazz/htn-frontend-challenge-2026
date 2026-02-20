@@ -11,7 +11,7 @@ export default function Home() {
   const [events, setEvents] = useState<TEvent[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const { search, setSearch, typeFilter, setTypeFilter, filteredEvents } =
+  const { search, setSearch, typeFilter, setTypeFilter, filteredEvents, sortOrder,setSortOrder } =
     useEventSort(events);
 
   useEffect(() => {
@@ -44,6 +44,8 @@ export default function Home() {
           setSearch={setSearch}
           typeFilter={typeFilter}
           setTypeFilter={setTypeFilter}
+          sortOrder={sortOrder}
+          setSortOrder={setSortOrder}
         />
 
         {filteredEvents.length > 0 ? (
